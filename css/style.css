@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Newsreader', serif;
+    background-image: url(../img/666602.jpg);
+    align-items: stretch;
+}
+.centrado{
+    margin: 0 auto;
+    padding: 0 1em;
+}
+#contenidoIndex{
+    align-items: stretch;
+}
+
+/*--------------------------Comienzo del footer-style-----------------------------*/
+
+footer{
+    background-color: hsl(0, 0%, 15%);
+    color: hsl(0, 0%, 80%);
+    height: 24em;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+#buscador{
+    padding: 2em;
+    margin: 2em;
+    margin-bottom: 0px;
+    text-align-last: center;
+}
+
+#ubicarnos{
+    text-align: left;
+    float: left;
+    display: block;
+}
+
+#ubicarnos div p{
+    margin: 0px;
+}
+
+#botonera{
+    text-align: right;
+    float: right;
+}
+
+#botonera h3{
+    padding-right: 1em;
+}
+
+#botonera a img{
+    width: 4em;
+    height: auto;
+    display: inline;
+    
+}/*--------------------------Fin del footer-style-----------------------------*/
+
+/*Inicio de media*/
+@media screen and (min-width:52em){
+    .centrado{
+        max-width: 52em;
+        }
+    footer{
+        background-color: hsl(0, 0%, 15%);
+        color: hsl(0, 0%, 80%);
+        height: 17em;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        }
+}/*Fin de media*/
+
+.titulo1{
+    position: relative;
+    margin: 0;
+    padding: 1em 0;
+    
+    font-weight: 300;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.24);
+    color: hsl(0, 0%, 15%);
+    
+}
+
+/*--------------------------Inicio de Cursos-style-----------------------------*/
+
+.CursoArt{
+    background-color: hsl(0, 0%, 80%);
+    margin: 0em;
+    height: auto;
+    display: inline-block;
+    
+}
+
+.CursoArt1{
+    background-color: hsl(0, 0%, 95%);
+    margin: 0em;
+    height: auto;
+    display: inline-block;
+    
+}
+
+.CursoImg{
+    width: inherit;
+    max-width: 35em;
+    height: auto;
+    padding: auto;
+    float: left;
+    
+}
+
+.CursoImg1{
+    width: inherit;
+    max-width: 35em;
+    min-width: 30em;
+    height: auto;
+    padding: auto;
+    float: right;
+}
+
+.CursoTxt{
+    text-align-last: center;
+    padding-top: 7em;
+    padding-right: 2em;
+    padding-left: auto;
+}
+
+.CursoTxt1{
+    text-align-last: center;
+    padding-top: 7em;
+    padding-right: 2em;
+    padding-left: 2em;
+    margin-left: auto;
+}
+
+.Quiero{
+    width: 15em;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*--------------------------Fin de Cursos-style-----------------------------*/
+
+/*--------------------------Inicio de Contacto-style-----------------------------*/
+
+#contactate{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 1em 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.24);
+    margin: 0;
+    margin-top: 2em;
+    
+}
+.formulario{
+    text-align: center;
+    padding-right: 35%;
+    padding-left: 32%;
+    padding-top: 0;
+    margin-top: 1em;
+}
+
+#tarjetaContacto{
+    width: 28em;
+    height: 31em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.24);
+    padding-top: 1em;
+    justify-content: center;
+}
+
+#acepto{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+/*--------------------------Fin de Contacto-style-----------------------------*/
+
+.menu_section{
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid hsl(0,0%);
+}
+
+.menu_simple_menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: hsl(0, 0%, 15%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.menu_simple_menu ul a{
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: .6em 1em;
+}
+
+.menu_simple_menu ul a:hover{
+    background: hsl(0, 0%, 80%);
+    color: black;
+}
+
+.menu_simple_menu li{
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+.rece_div{
+    width: max-content;
+    margin: 30%;
+    margin-top: 2em;
+}
+
+.tarjeta a{
+    color: hsl(20, 5%, 25%);
+    text-decoration: none;
+}
+
+.tarjeta a:hover{
+    box-shadow: 3px 3px 8px hsl(0, 0%, 50%);
+}
+
+.tarjeta_content{
+    padding: .5em;
+}
+
+.tarjeta_content h2{
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.tarjeta_content p{
+    font-size: 95%;
+}
+
+figure{
+    margin: 0;
+}
+
+#brand{
+    width: 30em;
+    height: auto;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+img{
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+    padding: .5em;
+    
+}
+
+/*--------------------------Inicio de SuperTarjeta-style-----------------------------*/
+.superTarjeta{
+    background-color: whitesmoke;
+    margin: 5em;
+    padding: 2em;
+    margin-top: 1em;
+    align-content: center;
+}
+.superImagen{
+    object-position: center;
+    margin-bottom: 2em;
+    margin: auto;
+
+}
+
+.titulo4{
+    margin-bottom: 0;
+    padding: 1em 0;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-weight: 200;
+    color: hsl(0, 0%, 15%);
+    text-align: center;
+}
+
+.superImagen{
+    width: 700px;
+    height: auto;
+}
+
+/*--------------------------Fin de SuperTarjeta-style-----------------------------*/
+
+/*Acá comienza el flex*/
+
+.tarjeta{
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 2em;
+    width: 33%;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.superImagen{
+    width: 75%;
+    height: auto;
+}
+
+.tarjetaNos{
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 2em;
+    width: 33%;
+}
+
+.cardsNos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

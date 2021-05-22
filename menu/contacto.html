@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/icon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@300;400&display=swap" rel="stylesheet">
+    
+
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="cabezera_clear">
+        <div class="side_branding">
+            <img id="brand" src="../img/promo1.png" alt="brand">
+        </div>
+       <div class="centrado">
+           <section class="menu_section">
+               <nav class="menu_simple_menu">
+                   <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="">Nosotros</a></li>
+                    <li><a href="">Recetas</a></li>  
+                    <li><a href="">Contacto</a></li> 
+                   </ul>
+               </nav>
+           </section>
+       </div> 
+    </header>
+    
+    <section>
+        <div>
+            <h1 id="contactate"> <b>Contactate con Nosotros</b></h1>
+        </div>
+        <div>
+            <form class="formulario" action="link" method="post" target="_blank">
+                
+                    <legend> <b>Dejanos un mensaje:</b></legend>
+                <div id="tarjetaContacto">
+                    <p><b>Nombre:</b> 
+                        <input type="text" value="Su nombre">
+                    </p>
+                    <p><b>Correo:</b> 
+                        <input type="text" value="Su dirección email">
+                    </p>
+                    <p><b>Teléfono:</b> 
+                        <input type="tel" id="telefono">
+                    </p>
+                    <p><b>Consulta:</b> <br>
+                        <textarea textarea name="Su consulta" value="Consulta" id="consulta" cols="30" rows="10">Deje su mensaje...</textarea>
+                        <br>
+                    
+                    <div id="acepto">
+                        <input type="checkbox" name="Acepto" id="Acepto"><b>Acepto los términos y condiciones que nunca me dieron pero que tampoco iba a leer.</b></input>
+                        <label for="Acepto"> </label><br>
+                    </div>
+                        
+                </div>
+                
+                <br><br><br>
+                <input type="reset" value="Borrar">
+                <input type="submit" value="Enviar">
+                <br><br>
+            </form>
+        </div>
+    
+        <footer>
+            <section>
+                <div id="buscador">
+                    <h3>Buscador de Recetas:  <input type="search" value="buscá una receta..." name="busqueda" id="busqueda"></h3>
+                </div>
+            </section>
+    
+            <section id="sectionF2">
+                <div id="ubicarnos">
+                    <div id="datos">
+                    <h3>Donde ubicarnos:</h3>
+                    <p>Calle Falsa 123 - Ciudad Capital, Argentina</p>
+                    <p>Tel: 5555-5555</p>
+                    <p>Correo: contacto@paulino.com.ar</p>
+                    </div>
+                </div>
+    
+                <div id="botonera">
+                    <h3>Nuestras redes:</h3>
+                        <div>
+                            <a href="http://facebook.com/paulinococina">
+                            <img src="../img/redes/face.png" alt="facebook">
+                            </a>
+                            <a href="http://youtube.com/paulinococina">
+                            <img src="../img/redes/youtube.png" alt="youtube">
+                            </a>
+                            <a href="http://instagram.com/paulinococina">
+                            <img src="../img/redes/insta.png" alt="instagram">
+                            </a>                
+                        </div>
+                </div>
+            </section>
+        </footer>
+
+    <script src="/js/jquary.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
